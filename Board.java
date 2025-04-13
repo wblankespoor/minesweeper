@@ -42,7 +42,7 @@ public class Board extends JFrame{
         //Necessary to make sure board is always focused for flagging toggle (Squares aren't focusable)
         setFocusable(true);
 
-        //Restart buttong
+        //Restart button
         restartButton = new JButton();
         restartButton.setBounds(numCols * 45 + 10,  0, 100, 45);
         restartButton.setText("Restart");
